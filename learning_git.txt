@@ -1,4 +1,69 @@
+Here are the most useful Git commands that professional developers frequently use:
 
+Basic Git Commands
+git init – Initializes a new Git repository.
 
-1. all commands
-new line added
+git clone <repo_url> – Clones a remote repository to your local machine.
+
+git status – Shows the current status of the working directory and staged files.
+
+git add <file> – Stages a file for the next commit.
+
+git commit -m "message" – Commits the staged changes with a message.
+
+git log – Shows the commit history.
+
+Branching and Merging
+git branch – Lists all branches.
+
+git branch <branch_name> – Creates a new branch.
+
+git checkout <branch_name> – Switches to another branch.
+
+git switch <branch_name> – Another way to switch branches (recommended for newer Git versions).
+
+git merge <branch_name> – Merges a branch into the current branch.
+
+git rebase <branch_name> – Reapplies commits from one branch on top of another.
+
+Remote Repositories
+git remote -v – Shows the remote repository URL.
+
+git fetch – Retrieves changes from the remote repository without merging.
+
+git pull – Fetches and merges changes from the remote repository.
+
+git push origin <branch_name> – Pushes local commits to the remote repository.
+
+Undoing Changes
+git reset <file> – Unstages a file before committing.
+
+git reset --hard <commit_hash> – Resets the working directory and commits to a specific commit (use cautiously).
+
+git checkout -- <file> – Discards local changes in a file.
+
+git revert <commit_hash> – Reverts a commit by creating a new commit.
+
+Stashing and Cleaning
+git stash – Temporarily saves changes without committing.
+
+git stash pop – Applies the last stashed changes and removes them from the stash.
+
+git stash list – Lists all stashes.
+
+git clean -f – Removes untracked files from the working directory.
+
+Advanced & Useful Commands
+git cherry-pick <commit_hash> – Applies a specific commit from another branch.
+
+git bisect start – Starts a binary search to find the commit that introduced a bug.
+
+git reflog – Shows a history of all references, useful for recovering lost commits.
+
+git blame <file> – Shows who modified each line in a file.
+
+git tag <tag_name> – Creates a tag for a specific commit.
+
+git diff – Shows changes between commits, branches, or the working directory.
+
+Would you like examples or explanations for any of these? 🚀
